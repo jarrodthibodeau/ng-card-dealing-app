@@ -31,8 +31,3 @@
    flex-flow: row wrap;
    width: 100%;
 }
-
-#app__button-container {
-    position: relative;
-    bottom: 100px;
-}
