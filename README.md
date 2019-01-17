@@ -2,7 +2,7 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.3.
 
-Projected it deploy [here](https://ng-card-dealing-app-aux0n8fnh.now.sh/).
+Projected it deploy [here](https://ng-card-dealing-app-1t7xmwlis.now.sh/).
 
 ## Development server
 
