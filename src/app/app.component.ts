@@ -79,7 +79,7 @@ export class AppComponent {
 
   drawCards() {
     if (this.deck.length < this.config.numOfCardsInHand) {
-      alert('There are not enough cards in the deck, please reshuffle the deck');
+      alert('There are not enough cards left in the deck, please reshuffle the deck');
     } else {
       this.hand = [];
 
