@@ -1,0 +1,10 @@
+.app-filter__container {
+    width: 300px;
+    height: 260px;
+    background: rgba(204, 204, 204, .2);
+    box-shadow: 2px 2px 2px 2px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    padding: 16px;
+}
