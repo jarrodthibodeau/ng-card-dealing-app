@@ -1,0 +1,38 @@
+#app__container {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+#app__card-container {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    padding: 30px;
+    justify-content: space-around;
+}
+
+#app__hand-container {
+    display: flex;
+    flex-flow: row wrap;
+    height: 100%;
+    width: 240px;
+}
+
+#app__hand-container > div > * {
+    padding-bottom: 10px;
+    padding-left: 4px;
+}
+
+#app__hand-container > div:nth-of-type(1) {
+   display: flex;
+   flex-flow: row wrap;
+   width: 100%;
+}
+
+#app__button-container {
+    position: relative;
+    bottom: 200px;
+}

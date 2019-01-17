@@ -1,1 +1,30 @@
 /* You can add global styles to this file, and also import other style files */
+html, body {
+    font-family: 'Roboto', sans-serif;
+    height: 100%;
+    overflow: hidden;
+}
+
+button {
+    background: white;
+    border: 1px solid black;
+    font-family: 'Roboto', sans-serif;
+    outline: none;
+    height: 40px;
+    width: 120px;
+    transition: all .5s;
+}
+
+button:disabled {
+    border: 1px solid gray;
+}
+
+button:not(:disabled):hover {
+    border: 1px solid red;
+    color: red;
+    cursor: pointer;
+}
+
+h3 {
+    line-height: 0;
+}

@@ -1,0 +1,29 @@
+<div class="app-filter__container">
+    <div>
+        <label>Min Value: </label>
+        <select (change)="handleMinValueChange($event)">
+            <option *ngFor="let s of minNumSelections" [value]="s.value" [selected]="this.config.minValue === s.value">{{s.text}}</option> 
+        </select> 
+    </div>
+    
+    <div>
+        <label>Max Value: </label>
+        <select (change)="handleMaxValueChange($event)">
+            <option *ngFor="let s of maxNumSelections" [value]="s.value" [selected]="this.config.maxValue === s.value">{{s.text}}</option> 
+        </select> 
+    </div>
+
+    <div>
+        <label>Cards in Hands: </label>
+        <select (change)="handleNumOfCardsInHandChange($event)">
+            <option *ngFor="let s of numCardsInHandSelections" [value]="s" [selected]="this.config.numOfCardsInHand === s" >{{s}}</option> 
+        </select> 
+    </div>
+
+    <div>
+        <label>Available Suits: </label>
+        <div *ngFor="let suit of suitsSelection">
+            <input [name]="suit" [value]="suit" [checked]="config.suits[suit]" type="checkbox" (click)="handleSuitsChange($event)"> {{suit}}
+        </div>
+    </div>
+</div>
